@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Okay!.wav-12cee35d218a599de28966b61a43eb11.sample"
+
+[deps]
+
+source_file="res://sounds/sfx/player/Okay!.wav"
+dest_files=[ "res://.import/Okay!.wav-12cee35d218a599de28966b61a43eb11.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

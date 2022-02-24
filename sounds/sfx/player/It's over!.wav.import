@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/It's over!.wav-bdbadbd7a76f7bb9841706adf63e923c.sample"
+
+[deps]
+
+source_file="res://sounds/sfx/player/It's over!.wav"
+dest_files=[ "res://.import/It's over!.wav-bdbadbd7a76f7bb9841706adf63e923c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

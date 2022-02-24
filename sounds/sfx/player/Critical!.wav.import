@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Critical!.wav-b53ff37aaebf3d6de9e64cde1f4ca4e1.sample"
+
+[deps]
+
+source_file="res://sounds/sfx/player/Critical!.wav"
+dest_files=[ "res://.import/Critical!.wav-b53ff37aaebf3d6de9e64cde1f4ca4e1.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

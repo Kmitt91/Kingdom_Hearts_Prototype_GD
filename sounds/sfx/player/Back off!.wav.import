@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Back off!.wav-7ec460b8fef81e0b6cf96e77107a2543.sample"
+
+[deps]
+
+source_file="res://sounds/sfx/player/Back off!.wav"
+dest_files=[ "res://.import/Back off!.wav-7ec460b8fef81e0b6cf96e77107a2543.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Kingdom Hearts 1.5 HD ReMix -Destiny Islands- Extended.mp3-5204cebb50b684fa8b8d266b3cdc6eef.mp3str"
+
+[deps]
+
+source_file="res://sounds/ost/Kingdom Hearts 1.5 HD ReMix -Destiny Islands- Extended.mp3"
+dest_files=[ "res://.import/Kingdom Hearts 1.5 HD ReMix -Destiny Islands- Extended.mp3-5204cebb50b684fa8b8d266b3cdc6eef.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

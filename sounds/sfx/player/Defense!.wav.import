@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Defense!.wav-357eb28598150b3a2da6f28252c6d614.sample"
+
+[deps]
+
+source_file="res://sounds/sfx/player/Defense!.wav"
+dest_files=[ "res://.import/Defense!.wav-357eb28598150b3a2da6f28252c6d614.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

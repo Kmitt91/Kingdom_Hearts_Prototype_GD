@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Let's go!.wav-8353915d6b5aa79309dfe93225736525.sample"
+
+[deps]
+
+source_file="res://sounds/sfx/player/Let's go!.wav"
+dest_files=[ "res://.import/Let's go!.wav-8353915d6b5aa79309dfe93225736525.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

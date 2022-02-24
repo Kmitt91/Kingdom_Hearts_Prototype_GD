@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Yah!.wav-f8f35318e6fc65657cfe3aa154540378.sample"
+
+[deps]
+
+source_file="res://sounds/sfx/player/Yah!.wav"
+dest_files=[ "res://.import/Yah!.wav-f8f35318e6fc65657cfe3aa154540378.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

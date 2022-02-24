@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Donald!.wav-feb05ba33f652202f080c280cc3cb377.sample"
+
+[deps]
+
+source_file="res://sounds/sfx/player/Donald!.wav"
+dest_files=[ "res://.import/Donald!.wav-feb05ba33f652202f080c280cc3cb377.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
