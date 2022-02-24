@@ -15,6 +15,7 @@ var weight_on_ground = 8
 
 var orientation = Transform()
 var root_motion = Transform()
+var root_vel = Vector3.ZERO
 
 #movement values
 export var movement_speed = 0
@@ -88,7 +89,7 @@ func _physics_process(delta):
 		
 	velocity = lerp(velocity, direction * movement_speed, delta * acceleration)
 
-	move_and_slide(velocity + Vector3.UP * vertical_velocity - get_floor_normal() * weight_on_ground, Vector3.UP)
+	move_and_slide(velocity + Vector3.UP * vertical_velocity - get_floor_normal() * weight_on_ground + root_motion_velocity(delta), Vector3.UP)
 	
 	#player is in the air
 	if !is_on_floor():
@@ -118,9 +119,12 @@ func _physics_process(delta):
 		
 	#combat ground code
 		if current_weapon == 1:
+			# get root_motion for attack
+			root_motion = anim_tree.get_root_motion_transform()
+			
 			if Input.is_action_just_pressed("attack"):
 				anim_tree.set("parameters/hit1/active", true)
-				anim_tree.get_root_motion_transform()
+				
 					
 		if current_weapon == 0:
 			anim_tree.set("parameters/idle_states/blend_amount", 0)
@@ -160,6 +164,26 @@ func _physics_process(delta):
 	
 # Check current weapon
 	check_weapon_states(delta)
+
+
+func root_motion_velocity(delta):
+	
+	### Root Motion Rotation ###
+	var position_matrix = mesh.global_transform
+	position_matrix.origin = Vector3.ZERO
+	
+	position_matrix *= root_motion
+	
+	
+	### Root Motion Translation ###
+	var root_motion_displ = position_matrix.origin / delta
+	
+	root_vel.x = root_motion_displ.x
+	root_vel.z = root_motion_displ.z
+	root_vel.y = 0.0
+	
+	
+	return root_vel
 
 func _on_fall_timer_timeout():
 	pass
